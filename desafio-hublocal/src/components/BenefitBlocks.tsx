@@ -5,7 +5,7 @@ import Block from "./Block";
 export default function BenefitBlocks(){
     return(
         <div className="display">
-            <h1 id="benefits-title">Benefícios que a HubLocal te proporciona:</h1>
+            <h1 className="benefits-title">Benefícios que a HubLocal te proporciona:</h1>
             <div className="blocks">
                 <Block src="./images/notification.png" title="Feed de atividades e alertas de modificações" description="" />
                 <Block src="./images/marketing.png" title="Publicações em massa de postagens e conteúdos" description="" />

@@ -1,10 +1,10 @@
-#footer{
+.footer{
     background-color: #2F2F5B;
     color: white;
     width: 100%;
 }
 
-#top{
+.footer-top{
     padding-top: 25px;
     width: 100%;
     display: flex;
@@ -13,24 +13,20 @@
     flex-wrap: wrap;
 }
 
-#logo-footer{
+.logo-footer{
     height: 75px;
     width: auto;
 }
 
-#social-links{
+.social-links{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-a{
-    color: white;
-    text-decoration: none;
-}
-
 .social-media svg{
+    color: white;
     width: 45px;
     height: 45px;
     margin-left: 17px;
@@ -41,12 +37,13 @@ a{
     color: #01D990;
 }
 
-p{
+.developed{
+    margin: 0px;
     padding: 15px 25px 25px 25px;
     text-align: center;
 }
 
-#my-name{
+.my-name{
     color: #01D990;
 }
 

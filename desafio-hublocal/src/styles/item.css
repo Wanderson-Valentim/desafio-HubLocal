@@ -1,0 +1,13 @@
+.mark{
+    height: 17px;
+    padding: 0px 5px 0px 0px;
+    width: auto;
+}
+
+.text-item{
+    font-size: 15pt;
+    text-align: left;
+    padding: 7px;
+    margin: 0px;
+    height: auto;
+}
