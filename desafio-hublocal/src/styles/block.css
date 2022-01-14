@@ -1,0 +1,23 @@
+.block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    height: 175px;
+}
+
+.image{
+    margin: 0px;
+    padding: 20px 20px 0px 20px; 
+    height: auto;
+    width: 70px;
+}
+
+.title-block{
+    margin: 0px;
+    padding: 20px;
+    width: 250px;
+    height: auto;
+    color: white;
+}

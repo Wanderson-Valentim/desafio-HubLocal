@@ -1,0 +1,29 @@
+.demo{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: row;
+}
+
+.demo-title{
+    color: #4685FE;
+}
+
+.demo-text-deco{
+    color: #0C0C17;
+    background-color: #4685FE;
+}
+
+.demo-text{
+
+}
+
+.demo-items{
+
+}
+
+.title-items{
+    color: #0C0C17;
+    background-color: #33FFBA;
+}

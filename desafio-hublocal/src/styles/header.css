@@ -1,0 +1,40 @@
+#header{
+    background-color: #2F2F5B;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+
+#logo-header{
+    height: auto;
+    width: 300px;
+}
+
+#image{
+    height: auto;
+    width: 300px;
+}
+
+figure{
+    padding: 0px;
+    margin: 0px;
+}
+
+#title{
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content: center;
+}
+
+em{
+    font-style: normal;
+    color: #01D990;
+}
+
+h2{
+    width: 600px;
+}
