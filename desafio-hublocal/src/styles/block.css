@@ -15,9 +15,10 @@
 }
 
 .title-block{
+    text-align: center;
     margin: 0px;
     padding: 20px;
     width: 250px;
-    height: auto;
+    height: 82px;
     color: white;
 }

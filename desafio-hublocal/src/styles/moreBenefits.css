@@ -1,0 +1,45 @@
+.elements-more-benefits{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text-image-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.image-more{
+    height: auto;
+    width: 450px;
+}
+
+.text-more{
+    font-size: 20pt;
+    width: 480px;
+}
+
+.title-button-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+.satisfied{
+    font-size: 25pt;
+}
+
+.request-button{
+    color: #0C0C17;
+    background-color: #33FFBA;
+    border-radius: 20px;
+    padding: 25px 35px 25px 35px;
+    font-size: 20pt;
+    font-weight: bold;
+}
