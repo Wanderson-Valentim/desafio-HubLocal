@@ -1,50 +1,132 @@
-.form{
-    border-radius: 15px;
-    width: 390px;
-    background-color: white;
-    display: flex;
-    align-items: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.description-form{
-    color: #0C0C17;
-    font-weight: 600;
-    width: 75%;
-    text-align: justify;
-}
-
-.field{
-    padding: 0px 10px 0px 10px;
-    width: 75%;
-    height: 45px;
-    margin: 20px 0px 10px 0px;
-    border-radius: 8px;
-    border-color: #4685FE;
-    border-style:solid;
-    font-size: 12pt;
-}
-
-.button-form{
-    color: #0C0C17;
-    font-size: 11pt;
-    font-weight: bold;
-    background-color: #FCAB18;
-    border-style: none;
-    border-radius: 20px;
-    padding: 25px 30px 25px 30px;
-    margin: 20px;
-}
-
-@media screen and (min-width: 1280px){
+@media screen and (min-width: 1905px){
+    .form{
+        border-radius: 15px;
+        width: 430px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        align-items: center;
+        flex-direction: column;
+    }
     
+    .description-form{
+        color: #0C0C17;
+        font-weight: 600;
+        width: 75%;
+        font-size: 14pt;
+        text-align: justify;
+    }
+    
+    .field{
+        padding: 0px 10px 0px 10px;
+        width: 75%;
+        height: 60px;
+        margin: 20px 0px 10px 0px;
+        border-radius: 8px;
+        border-color: #4685FE;
+        border-style:solid;
+        font-size: 15pt;
+    }
+    
+    .button-form{
+        color: #0C0C17;
+        font-size: 14pt;
+        font-weight: bold;
+        background-color: #FCAB18;
+        border-style: none;
+        border-radius: 20px;
+        padding: 25px 30px 25px 30px;
+        margin: 20px;
+    }
 }
 
-@media screen and (min-width: 769px) and (max-width: 900px){
+@media screen and (min-width: 1301px) and (max-width: 1904px){
+    .form{
+        border-radius: 15px;
+        width: 390px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .description-form{
+        color: #0C0C17;
+        font-weight: 600;
+        width: 75%;
+        font-size: 14pt;
+        text-align: justify;
+    }
+    
+    .field{
+        padding: 0px 10px 0px 10px;
+        width: 75%;
+        height: 45px;
+        margin: 20px 0px 10px 0px;
+        border-radius: 8px;
+        border-color: #4685FE;
+        border-style:solid;
+        font-size: 14pt;
+    }
+    
+    .button-form{
+        color: #0C0C17;
+        font-size: 11pt;
+        font-weight: bold;
+        background-color: #FCAB18;
+        border-style: none;
+        border-radius: 20px;
+        padding: 25px 30px 25px 30px;
+        margin: 20px;
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1300px){
+    .form{
+        border-radius: 15px;
+        width: 390px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .description-form{
+        color: #0C0C17;
+        font-weight: 600;
+        width: 75%;
+        text-align: justify;
+    }
+    
+    .field{
+        padding: 0px 10px 0px 10px;
+        width: 75%;
+        height: 45px;
+        margin: 20px 0px 10px 0px;
+        border-radius: 8px;
+        border-color: #4685FE;
+        border-style:solid;
+        font-size: 12pt;
+    }
+    
+    .button-form{
+        color: #0C0C17;
+        font-size: 11pt;
+        font-weight: bold;
+        background-color: #FCAB18;
+        border-style: none;
+        border-radius: 20px;
+        padding: 25px 30px 25px 30px;
+        margin: 20px;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 999px){
     .form{
         border-radius: 10px;
-        width: 300px;
+        width: 90%;
         background-color: white;
         display: flex;
         align-items: center;
@@ -83,11 +165,7 @@
     }
 }
 
-@media screen and (min-width: 481) and (max-width: 768){
-    
-}
-
-@media screen and (max-width: 599px){
+@media screen and (max-width: 699px){
     .form{
         border-radius: 10px;
         width: 300px;

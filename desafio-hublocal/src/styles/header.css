@@ -1,44 +1,4 @@
-.header{
-    background-color: #2F2F5B;
-    color: white;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items:center;
-    justify-content: center;
-}
-
-.logo-header{
-    height: auto;
-    width: 250px;
-}
-
-.image-header{
-    height: auto;
-    width: 300px;
-}
-
-.title-header{
-    display: flex;
-    flex-direction:row;
-    align-items:center;
-    justify-content: center;
-}
-
-.header-text-deco{
-    font-style: normal;
-    color: #01D990;
-}
-
-.title2{
-    width: 600px;
-}
-
-@media screen and (min-width: 1280px){
-    
-}
-
-@media screen and (min-width: 769px) and (max-width: 900px){
+@media screen and (min-width: 1905px){
     .header{
         background-color: #2F2F5B;
         color: white;
@@ -51,13 +11,13 @@
     
     .logo-header{
         height: auto;
-        width: 170px;
-        padding: 5px;
+        padding: 10px;
+        width: 300px;
     }
     
     .image-header{
         height: auto;
-        width: 290px;
+        width: 400px;
     }
     
     .title-header{
@@ -65,11 +25,49 @@
         flex-direction:row;
         align-items:center;
         justify-content: center;
-        font-size: 10pt;
+    }
+    
+    .header-text-deco{
+        font-style: normal;
+        color: #01D990;
     }
 
-    .texts-header{
-        width: 460px;
+    .title1{
+        font-size: 35pt;
+    }
+    
+    .title2{
+        font-size: 28pt;
+        width: 900px;
+    }
+}
+
+@media screen and (min-width: 1301px) and (max-width: 1904px){
+    .header{
+        background-color: #2F2F5B;
+        color: white;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+    }
+    
+    .logo-header{
+        height: auto;
+        width: 250px;
+    }
+    
+    .image-header{
+        height: auto;
+        width: 300px;
+    }
+    
+    .title-header{
+        display: flex;
+        flex-direction:row;
+        align-items:center;
+        justify-content: center;
     }
     
     .header-text-deco{
@@ -78,16 +76,104 @@
     }
     
     .title2{
-        width: 90%;
-        font-size: 12pt;
+        width: 600px;
     }
 }
 
-@media screen and (min-width: 481) and (max-width: 768){
+@media screen and (min-width: 1000px) and (max-width: 1300px){
+    .header{
+        background-color: #2F2F5B;
+        color: white;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+    }
     
+    .logo-header{
+        height: auto;
+        width: 250px;
+    }
+    
+    .image-header{
+        height: auto;
+        width: 300px;
+    }
+    
+    .title-header{
+        display: flex;
+        flex-direction:row;
+        align-items:center;
+        justify-content: center;
+    }
+    
+    .header-text-deco{
+        font-style: normal;
+        color: #01D990;
+    }
+    
+    .title2{
+        width: 600px;
+    }
 }
 
-@media screen and (max-width: 599px){
+@media screen and (min-width: 700px) and (max-width: 999px){
+    .header{
+        background-color: #2F2F5B;
+        color: white;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+    }
+    
+    .logo-header{
+        height: auto;
+        width: 150px;
+        padding: 5px;
+    }
+    
+    .image-header{
+        height: auto;
+        width: 200px;
+    }
+    
+    .title-header{
+        display: flex;
+        flex-direction:row;
+        align-items:center;
+        justify-content: center;
+    }
+
+    .texts-header{
+        width: 70%;
+    }
+    
+    .header-text-deco{
+        font-style: normal;
+        color: #01D990;
+    }
+
+    .title1{
+        font-size: 18pt;
+        margin: 0px;
+        padding: 0px;
+        text-align: left;
+        width: 100%;
+    }
+    
+    .title2{
+        padding: 10px 0px 10px 0px;
+        font-size: 13pt;
+        margin: 0px;
+        text-align: left;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 699px){
     .header{
         background-color: #2F2F5B;
         color: white;

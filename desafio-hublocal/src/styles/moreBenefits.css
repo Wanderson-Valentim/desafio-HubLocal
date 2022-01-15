@@ -1,4 +1,4 @@
-@media screen and (min-width: 600px){
+@media screen and (min-width: 1905px){
     .elements-more-benefits{
         color: white;
         display: flex;
@@ -17,12 +17,139 @@
     
     .image-more{
         height: auto;
-        width: 450px;
+        width: 550px;
+    }
+
+    .title-more{
+        font-size: 33pt;
+        text-align: center;
+    }
+    
+    .text-more{
+        font-size: 29pt;
+        line-height: 50px;
+        width: 800px;
+    }
+    
+    .title-button-block{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+    
+    .satisfied{
+        font-size: 35pt;
+    }
+    
+    .deco-more{
+        padding: 1px 5px 1px 5px;
+        color: #0C0C17;
+        background-color: #4685FE;
+        font-style: normal;
+    }
+    
+    .request-button{
+        color: #0C0C17;
+        background-color: #33FFBA;
+        border-radius: 20px;
+        padding: 25px 35px 25px 35px;
+        font-size: 25pt;
+        font-weight: bold;
+    }
+}
+
+@media screen and (min-width: 1301px) and (max-width: 1904px){
+    .elements-more-benefits{
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 30px;
+    }
+    
+    .text-image-block{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    
+    .image-more{
+        height: auto;
+        width: 440px;
+    }
+
+    .title-more{
+        font-size: 25pt;
+        text-align: center;
+    }
+    
+    .text-more{
+        font-size: 23pt;
+        width: 500px;
+    }
+    
+    .title-button-block{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+    
+    .satisfied{
+        font-size: 27pt;
+    }
+    
+    .deco-more{
+        padding: 1px 5px 1px 5px;
+        color: #0C0C17;
+        background-color: #4685FE;
+        font-style: normal;
+    }
+    
+    .request-button{
+        color: #0C0C17;
+        background-color: #33FFBA;
+        border-radius: 20px;
+        padding: 25px 35px 25px 35px;
+        font-size: 20pt;
+        font-weight: bold;
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1300px){
+    .elements-more-benefits{
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 30px;
+    }
+    
+    .text-image-block{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    
+    .image-more{
+        height: auto;
+        width: 380px;
+    }
+
+    .title-more{
+        text-align: center;
     }
     
     .text-more{
         font-size: 20pt;
-        width: 480px;
+        width: 420px;
     }
     
     .title-button-block{
@@ -54,7 +181,70 @@
     }
 }
 
-@media screen and (max-width: 599px){
+@media screen and (min-width: 700px) and (max-width: 999px){
+    .elements-more-benefits{
+        width: 100%;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .title-more{
+        text-align: center;
+        font-size: 20pt;
+    }
+    
+    .text-image-block{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    
+    .image-more{
+        height: auto;
+        width: 200px;
+    }
+    
+    .text-more{
+        font-size: 15pt;
+        width: 500px;
+        text-align: left;
+    }
+    
+    .title-button-block{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+    
+    .satisfied{
+        font-size: 20pt;
+        text-align: center;
+    }
+    
+    .deco-more{
+        padding: 1px 5px 1px 5px;
+        color: #0C0C17;
+        background-color: #4685FE;
+        font-style: normal;
+    }
+    
+    .request-button{
+        color: #0C0C17;
+        background-color: #33FFBA;
+        border-radius: 20px;
+        padding: 25px 35px 25px 35px;
+        font-size: 13pt;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width: 699px){
     .elements-more-benefits{
         width: 100%;
         color: white;
