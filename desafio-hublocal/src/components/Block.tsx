@@ -9,7 +9,7 @@ type blockProps = {
 
 export default function Block( { src, title, description } : blockProps ){
     return(
-        <div className="display">
+        <div className="display-block">
             <div className="block">
                 <img src={src} alt="" className="image"/>
                 <p className="title-block">{title}</p>

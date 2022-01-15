@@ -10,7 +10,7 @@
 
 .logo-header{
     height: auto;
-    width: 300px;
+    width: 250px;
 }
 
 .image-header{
@@ -32,4 +32,113 @@
 
 .title2{
     width: 600px;
+}
+
+@media screen and (min-width: 1280px){
+    
+}
+
+@media screen and (min-width: 769px) and (max-width: 900px){
+    .header{
+        background-color: #2F2F5B;
+        color: white;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+    }
+    
+    .logo-header{
+        height: auto;
+        width: 170px;
+        padding: 5px;
+    }
+    
+    .image-header{
+        height: auto;
+        width: 290px;
+    }
+    
+    .title-header{
+        display: flex;
+        flex-direction:row;
+        align-items:center;
+        justify-content: center;
+        font-size: 10pt;
+    }
+
+    .texts-header{
+        width: 460px;
+    }
+    
+    .header-text-deco{
+        font-style: normal;
+        color: #01D990;
+    }
+    
+    .title2{
+        width: 90%;
+        font-size: 12pt;
+    }
+}
+
+@media screen and (min-width: 481) and (max-width: 768){
+    
+}
+
+@media screen and (max-width: 599px){
+    .header{
+        background-color: #2F2F5B;
+        color: white;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+    }
+    
+    .logo-header{
+        height: auto;
+        width: 150px;
+        padding: 5px;
+    }
+    
+    .image-header{
+        height: auto;
+        width: 190px;
+    }
+    
+    .title-header{
+        display: flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content: center;
+        font-size: 10pt;
+    }
+
+    .texts-header{
+        width: 90%;
+    }
+    
+    .header-text-deco{
+        font-style: normal;
+        color: #01D990;
+    }
+
+    .title1{
+        font-size: 15pt;
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .title2{
+        padding: 10px 0px 10px 0px;
+        font-size: 10pt;
+        margin: 0px;
+        text-align: center;
+        width: 100%;
+    }
 }

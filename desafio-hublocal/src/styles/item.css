@@ -11,3 +11,43 @@
     margin: 0px;
     height: auto;
 }
+
+@media screen and (min-width: 1280px){
+    
+}
+
+@media screen and (min-width: 769px) and (max-width: 900px){
+    .mark{
+        height: 17px;
+        padding: 0px 5px 0px 0px;
+        width: auto;
+    }
+    
+    .text-item{
+        font-size: 10pt;
+        text-align: left;
+        padding: 7px;
+        margin: 0px;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 481) and (max-width: 768){
+    
+}
+
+@media screen and (max-width: 599px){
+    .mark{
+        height: 17px;
+        padding: 0px 5px 0px 0px;
+        width: auto;
+    }
+    
+    .text-item{
+        font-size: 10pt;
+        text-align: left;
+        padding: 7px;
+        margin: 0px;
+        height: auto;
+    }
+}

@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/demonstration.css"
 import Item from "./Item";
+import Form from "./Form";
 
 export default function Demonstration(){
     return(
@@ -18,8 +19,8 @@ export default function Demonstration(){
                     </div>
                 </div>
             </div> 
-            <div className="demo-form">
-                
+            <div className="demonstration-form">
+                <Form/>
             </div>
         </div>
     );

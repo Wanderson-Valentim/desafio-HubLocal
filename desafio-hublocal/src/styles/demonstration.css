@@ -4,30 +4,43 @@
     align-items: center;
     justify-items: center;
     flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    width: 90%;
 }
 
 .demo{
-    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    width: 60%;
 }
 
 .demo-title{
     color: #4685FE;
     text-align: center;
+    width: 90%;
+    line-height: 50px;
 }
 
 .demo-text-deco{
     font-style: normal;
     color: #0C0C17;
     background-color: #4685FE;
+    padding: 1px 5px 1px 5px;
 }
 
 .demo-text{
     text-align: center;
-    width: 465px;
+    width: 70%;
+    font-size: 14pt;
+    padding: 10px 20px 20px 20px;
+    font-weight: 600;
 }
 
 .demo-items{
-    
+    width: 85%;
 }
 
 .title-items{
@@ -35,6 +48,9 @@
     background-color: #33FFBA;
     font-size: 16pt;
     margin: 0px;
+    width: 350px;
+    text-align: center;
+    padding: 1px;
 }
 
 .items{
@@ -44,6 +60,164 @@
     flex-direction: column;
 }
 
-.demo-form{
-    width: 300px;
+.demonstration-form{
+    width: 400px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    transform: translateY(-50px);
+}
+
+@media screen and (min-width: 1280px){
+    
+}
+
+@media screen and (min-width: 769px) and (max-width: 900px){
+    .elements{
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: nowrap;
+        width: 700px;
+    }
+    
+    .demo{
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        flex-direction: column;
+        width: 350px;
+    }
+    
+    .demo-title{
+        color: #4685FE;
+        text-align: center;
+        width: 90%;
+        line-height: 35px;
+        font-size: 16pt;
+    }
+    
+    .demo-text-deco{
+        font-style: normal;
+        color: #0C0C17;
+        background-color: #4685FE;
+        padding: 1px 5px 1px 5px;
+    }
+    
+    .demo-text{
+        text-align: center;
+        width: 80%;
+        font-size: 11pt;
+        padding: 5px 10px 15px 10px;
+        font-weight: 600;
+    }
+    
+    .demo-items{
+        width: 85%;
+    }
+    
+    .title-items{
+        color: #0C0C17;
+        background-color: #33FFBA;
+        font-size: 16pt;
+        margin: 0px;
+        width: 100%;
+        font-size: 11pt;
+        text-align: left;
+        padding: 5px;
+    }
+    
+    .items{
+        display: flex;
+        align-items:flex-start;
+        justify-items: flex-start;
+        flex-direction: column;
+    }
+    
+    .demonstration-form{
+        width: 300px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 481) and (max-width: 768){
+    
+}
+
+@media screen and (max-width: 599px){
+    .elements{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .demo{
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .demo-title{
+        color: #4685FE;
+        text-align: center;
+        width: 90%;
+        line-height: 35px;
+        font-size: 16pt;
+    }
+    
+    .demo-text-deco{
+        font-style: normal;
+        color: #0C0C17;
+        background-color: #4685FE;
+        padding: 1px 5px 1px 5px;
+    }
+    
+    .demo-text{
+        text-align: center;
+        width: 80%;
+        font-size: 11pt;
+        padding: 5px 10px 15px 10px;
+        font-weight: 600;
+    }
+    
+    .demo-items{
+        width: 85%;
+    }
+    
+    .title-items{
+        color: #0C0C17;
+        background-color: #33FFBA;
+        font-size: 16pt;
+        margin: 0px;
+        width: 100%;
+        font-size: 11pt;
+        text-align: center;
+        padding: 5px;
+    }
+    
+    .items{
+        display: flex;
+        align-items:flex-start;
+        justify-items: flex-start;
+        flex-direction: column;
+    }
+    
+    .demonstration-form{
+        width: 100%;
+        color: white;
+        transform: translateY(0px);
+        padding-top: 10px;
+    }
 }
