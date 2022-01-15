@@ -11,7 +11,7 @@ export default function MoreBenefits(){
             </div>
             <div className="title-button-block">
                 <h2 className="satisfied">Junte-se aos mais de <em className="deco-more">4000</em> clientes satisfeitos! </h2>
-                <a href="" className="request-button">Solicite a Demonstração</a>
+                <button className="request-button">Solicite a Demonstração</button>
             </div>
         </div>
     );
