@@ -3,7 +3,22 @@ import "../styles/demonstration.css"
 import Item from "./Item";
 import Form from "./Form";
 
-export default function Demonstration(){
+type IFormInput = {
+    companyName: string;
+    productsServices: string;
+    email: string;
+    name: string;
+    positionCompany: string;
+}
+
+interface Props {
+    setData(data:IFormInput):void
+    setModal():void
+}
+
+export default function Demonstration(  {setData, setModal}:Props  ){
+    console.log(setModal);
+    
     return(
         <div className="elements">
             <div className="demo">
@@ -20,7 +35,7 @@ export default function Demonstration(){
                 </div>
             </div> 
             <div className="demonstration-form">
-                <Form/>
+                <Form setData={setData} setModal={setModal}/>
             </div>
         </div>
     );

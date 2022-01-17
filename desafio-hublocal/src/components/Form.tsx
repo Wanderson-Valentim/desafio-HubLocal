@@ -10,9 +10,17 @@ type IFormInput = {
     positionCompany: string;
 }
 
-export default function Form(){
+interface Props {
+    setData(data:IFormInput):void
+    setModal():void
+}
+
+export default function Form( {setData, setModal}:Props ){
     const { register, handleSubmit, formState: { errors } } = useForm<IFormInput>();
-    const onSubmit: SubmitHandler<IFormInput> = data => console.log(data);
+    const onSubmit: SubmitHandler<IFormInput> = data => {
+        setData(data)
+        setModal()
+    }
 
     return(
         <form onSubmit={handleSubmit(onSubmit)} className="form" id="form">
