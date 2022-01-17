@@ -1,79 +1,54 @@
-@media screen and (min-width: 1905px){
-    .mark{
-        height: 18px;
-        padding: 0px 5px 0px 0px;
-        width: auto;
-    }
-    
-    .text-item{
-        font-size: 17pt;
-        text-align: left;
-        padding: 7px;
-        margin: 0px;
-        height: auto;
-    }
+.mark{
+    height: 18px;
+    padding: 0px 5px 0px 0px;
+    width: auto;
 }
+
+.text-item{
+    font-size: 17pt;
+    text-align: left;
+    padding: 7px;
+    margin: 0px;
+    height: auto;
+}
+
 
 @media screen and (min-width: 1301px) and (max-width: 1904px){
     .mark{
         height: 16px;
-        padding: 0px 5px 0px 0px;
-        width: auto;
     }
     
     .text-item{
         font-size: 15pt;
-        text-align: left;
-        padding: 7px;
-        margin: 0px;
-        height: auto;
     }
 }
 
 @media screen and (min-width: 1000px) and (max-width: 1300px){
     .mark{
         height: 15px;
-        padding: 0px 5px 0px 0px;
-        width: auto;
     }
     
     .text-item{
         font-size: 13pt;
-        text-align: left;
-        padding: 7px;
-        margin: 0px;
-        height: auto;
     }
 }
 
 @media screen and (min-width: 700px) and (max-width: 999px){
     .mark{
         height: 17px;
-        padding: 0px 5px 0px 0px;
-        width: auto;
     }
     
     .text-item{
         font-size: 10pt;
-        text-align: left;
-        padding: 7px;
-        margin: 0px;
-        height: auto;
     }
 }
 
 @media screen and (max-width: 699px){
     .mark{
         height: 17px;
-        padding: 0px 5px 0px 0px;
-        width: auto;
     }
     
     .text-item{
         font-size: 10pt;
-        text-align: left;
-        padding: 7px;
-        margin: 0px;
-        height: auto;
     }
 }

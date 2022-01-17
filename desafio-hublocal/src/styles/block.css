@@ -1,177 +1,116 @@
-@media screen and (min-width: 1905px){
-    .display-block{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        width: 450px;
-    }
+.display-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 450px;
+}
 
-    .block{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        width: 450px;
-        height: auto;
-    }
-    
-    .image{
-        margin: 0px;
-        padding: 10px 10px 0px 10px; 
-        height: auto;
-        width: 100px;
-    }
-    
-    .title-block{
-        text-align: center;
-        margin: 0px;
-        padding-top: 20px;
-        width: 90%;
-        height: 90px;
-        color: white;
-        font-size: 17pt;
-    }
+.block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 450px;
+    height: auto;
+}
+
+.image{
+    margin: 0px;
+    padding: 10px 10px 0px 10px; 
+    height: auto;
+    width: 100px;
+}
+
+.title-block{
+    text-align: center;
+    margin: 0px;
+    padding-top: 20px;
+    width: 90%;
+    height: 90px;
+    color: white;
+    font-size: 17pt;
 }
 
 @media screen and (min-width: 1301px) and (max-width: 1904px){
     .display-block{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
         width: 350px;
     }
 
     .block{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
         width: 350px;
-        height: auto;
     }
     
     .image{
-        margin: 0px;
-        padding: 10px 10px 0px 10px; 
-        height: auto;
         width: 80px;
     }
     
     .title-block{
-        text-align: center;
-        margin: 0px;
         padding-top: 10px;
-        width: 90%;
         height: 70px;
-        color: white;
         font-size: 13pt;
     }
 }
 
 @media screen and (min-width: 1000px) and (max-width: 1300px){
     .display-block{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
         width: 250px;
     }
 
     .block{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
         width: 250px;
-        height: auto;
     }
     
     .image{
-        margin: 0px;
-        padding: 10px 10px 0px 10px; 
-        height: auto;
         width: 70px;
     }
     
     .title-block{
-        text-align: center;
-        margin: 0px;
         padding-top: 10px;
         width: 90%;
         height: 70px;
-        color: white;
         font-size: 11pt;
     }
 }
 
 @media screen and (min-width: 700px) and (max-width: 999px){
     .display-block{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
+        width: 100%;
     }
 
     .block{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
         width: 90%;
-        height: auto;
     }
     
     .image{
-        margin: 0px;
-        padding: 10px 10px 0px 10px; 
-        height: auto;
         width: 60px;
     }
     
     .title-block{
-        text-align: center;
-        margin: 0px;
         padding-top: 10px;
         width: 90%;
         height: 70px;
-        color: white;
         font-size: 11pt;
     }
 }
 
 @media screen and (max-width: 699px){
     .display-block{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
+        width: 100%;
     }
 
     .block{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
         width: 90%;
-        height: auto;
     }
     
     .image{
-        margin: 0px;
-        padding: 10px 10px 0px 10px; 
-        height: auto;
         width: 60px;
     }
     
     .title-block{
-        text-align: center;
-        margin: 0px;
         padding-top: 10px;
         width: 90%;
         height: 70px;
-        color: white;
         font-size: 11pt;
     }
 }

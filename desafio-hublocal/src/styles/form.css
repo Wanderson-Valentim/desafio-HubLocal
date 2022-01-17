@@ -1,84 +1,56 @@
-@media screen and (min-width: 1905px){
-    .form{
-        border-radius: 15px;
-        width: 430px;
-        background-color: white;
-        display: flex;
-        align-items: center;
-        align-items: center;
-        flex-direction: column;
-    }
-    
-    .description-form{
-        color: #0C0C17;
-        font-weight: 600;
-        width: 75%;
-        font-size: 14pt;
-        text-align: justify;
-    }
-    
-    .field{
-        padding: 0px 10px 0px 10px;
-        width: 75%;
-        height: 60px;
-        margin: 20px 0px 10px 0px;
-        border-radius: 8px;
-        border-color: #4685FE;
-        border-style:solid;
-        font-size: 15pt;
-    }
-    
-    .button-form{
-        color: #0C0C17;
-        font-size: 14pt;
-        font-weight: bold;
-        background-color: #FCAB18;
-        border-style: none;
-        border-radius: 20px;
-        padding: 25px 30px 25px 30px;
-        margin: 20px;
-    }
+.form{
+    border-radius: 15px;
+    width: 430px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    align-items: center;
+    flex-direction: column;
 }
+
+.description-form{
+    color: #0C0C17;
+    font-weight: 600;
+    width: 75%;
+    font-size: 14pt;
+    text-align: justify;
+}
+
+.field{
+    padding: 0px 10px 0px 10px;
+    width: 75%;
+    height: 60px;
+    margin: 20px 0px 10px 0px;
+    border-radius: 8px;
+    border-color: #4685FE;
+    border-style:solid;
+    font-size: 15pt;
+}
+
+.button-form{
+    color: #0C0C17;
+    font-size: 14pt;
+    font-weight: bold;
+    background-color: #FCAB18;
+    border-style: none;
+    border-radius: 20px;
+    padding: 25px 30px 25px 30px;
+    margin: 20px;
+}
+
 
 @media screen and (min-width: 1301px) and (max-width: 1904px){
     .form{
-        border-radius: 15px;
         width: 390px;
-        background-color: white;
-        display: flex;
-        align-items: center;
-        align-items: center;
-        flex-direction: column;
-    }
-    
-    .description-form{
-        color: #0C0C17;
-        font-weight: 600;
-        width: 75%;
-        font-size: 14pt;
-        text-align: justify;
     }
     
     .field{
-        padding: 0px 10px 0px 10px;
-        width: 75%;
         height: 45px;
-        margin: 20px 0px 10px 0px;
-        border-radius: 8px;
-        border-color: #4685FE;
-        border-style:solid;
         font-size: 14pt;
     }
     
     .button-form{
-        color: #0C0C17;
         font-size: 11pt;
-        font-weight: bold;
-        background-color: #FCAB18;
-        border-style: none;
-        border-radius: 20px;
-        padding: 25px 30px 25px 30px;
-        margin: 20px;
     }
 }
 
@@ -86,40 +58,15 @@
     .form{
         border-radius: 15px;
         width: 390px;
-        background-color: white;
-        display: flex;
-        align-items: center;
-        align-items: center;
-        flex-direction: column;
-    }
-    
-    .description-form{
-        color: #0C0C17;
-        font-weight: 600;
-        width: 75%;
-        text-align: justify;
     }
     
     .field{
-        padding: 0px 10px 0px 10px;
-        width: 75%;
         height: 45px;
-        margin: 20px 0px 10px 0px;
-        border-radius: 8px;
-        border-color: #4685FE;
-        border-style:solid;
         font-size: 12pt;
     }
     
     .button-form{
-        color: #0C0C17;
         font-size: 11pt;
-        font-weight: bold;
-        background-color: #FCAB18;
-        border-style: none;
-        border-radius: 20px;
-        padding: 25px 30px 25px 30px;
-        margin: 20px;
     }
 }
 
@@ -127,41 +74,22 @@
     .form{
         border-radius: 10px;
         width: 90%;
-        background-color: white;
-        display: flex;
-        align-items: center;
-        align-items: center;
-        flex-direction: column;
     }
     
     .description-form{
-        color: #0C0C17;
-        font-weight: 600;
-        width: 75%;
         font-size: 10pt;
-        text-align: justify;
     }
     
     .field{
-        padding: 0px 10px 0px 10px;
-        width: 75%;
         height: 38px;
         margin: 15px 0px 10px 0px;
-        border-radius: 8px;
-        border-color: #4685FE;
-        border-style:solid;
         font-size: 10pt;
     }
     
     .button-form{
-        color: #0C0C17;
         font-size: 9pt;
-        font-weight: bold;
-        background-color: #FCAB18;
-        border-style: none;
         border-radius: 15px;
         padding: 20px 25px 20px 25px;
-        margin: 20px;
     }
 }
 
@@ -169,40 +97,21 @@
     .form{
         border-radius: 10px;
         width: 300px;
-        background-color: white;
-        display: flex;
-        align-items: center;
-        align-items: center;
-        flex-direction: column;
     }
     
     .description-form{
-        color: #0C0C17;
-        font-weight: 600;
-        width: 75%;
         font-size: 10pt;
-        text-align: justify;
     }
     
     .field{
-        padding: 0px 10px 0px 10px;
-        width: 75%;
         height: 38px;
         margin: 15px 0px 10px 0px;
-        border-radius: 8px;
-        border-color: #4685FE;
-        border-style:solid;
         font-size: 10pt;
     }
     
     .button-form{
-        color: #0C0C17;
         font-size: 9pt;
-        font-weight: bold;
-        background-color: #FCAB18;
-        border-style: none;
         border-radius: 15px;
         padding: 20px 25px 20px 25px;
-        margin: 20px;
     }
 }

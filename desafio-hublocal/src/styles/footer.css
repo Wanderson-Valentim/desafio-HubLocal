@@ -1,156 +1,91 @@
-@media screen and (min-width: 1905px){
-    .footer{
-        background-color: #2F2F5B;
-        color: white;
-        width: 100%;
-    }
-    
-    .footer-top{
-        padding-top: 25px;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-    
-    .logo-footer{
-        height: 90px;
-        width: auto;
-    }
-    
-    .social-links{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-    
-    .social-media svg{
-        color: white;
-        width: 60px;
-        height: 60px;
-        margin-left: 30px;
-    }
-    
-    .social-media svg:hover{
-        transition: 0.5s;
-        color: #01D990;
-    }
-    
-    .developed{
-        margin: 0px;
-        font-size: 16pt;
-        padding: 15px 25px 25px 25px;
-        text-align: center;
-    }
-    
-    .my-name{
-        color: #01D990;
-    }
+.footer{
+    background-color: #2F2F5B;
+    color: white;
+    width: 100%;
+}
+
+.footer-top{
+    padding-top: 25px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.logo-footer{
+    height: 90px;
+    width: auto;
+}
+
+.social-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.social-media svg{
+    color: white;
+    width: 60px;
+    height: 60px;
+    margin-left: 30px;
+}
+
+.social-media svg:hover{
+    transition: 0.5s;
+    color: #01D990;
+}
+
+.developed{
+    margin: 0px;
+    font-size: 16pt;
+    padding: 15px 25px 25px 25px;
+    text-align: center;
+}
+
+.my-name{
+    color: #01D990;
 }
 
 @media screen and (min-width: 700px) and (max-width: 1904px){
-    .footer{
-        background-color: #2F2F5B;
-        color: white;
-        width: 100%;
-    }
-    
-    .footer-top{
-        padding-top: 25px;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-    
     .logo-footer{
         height: 75px;
-        width: auto;
-    }
-    
-    .social-links{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
     }
     
     .social-media svg{
-        color: white;
         width: 45px;
         height: 45px;
         margin-left: 17px;
     }
     
-    .social-media svg:hover{
-        transition: 0.5s;
-        color: #01D990;
-    }
-    
     .developed{
-        margin: 0px;
-        padding: 15px 25px 25px 25px;
-        text-align: center;
-    }
-    
-    .my-name{
-        color: #01D990;
+        font-size: 14pt;
     }
 }
 
 @media screen and (max-width: 699px){
-    .footer{
-        background-color: #2F2F5B;
-        color: white;
-        width: 100%;
-    }
-    
     .footer-top{
-        padding-top: 25px;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
         flex-direction: column;
-        flex-wrap: wrap;
     }
     
     .logo-footer{
         padding: 10px;
         height: 60px;
-        width: auto;
     }
     
     .social-links{
-        display: flex;
-        align-items: center;
         justify-content: space-around;
-        flex-wrap: wrap;
         width: 150px;
     }
     
     .social-media svg{
-        color: white;
         width: 40px;
         height: 40px;
         margin-left: 0px;
     }
     
-    .social-media svg:hover{
-        transition: 0.5s;
-        color: #01D990;
-    }
-    
     .developed{
-        margin: 0px;
-        padding: 15px 25px 25px 25px;
-        text-align: center;
-    }
-    
-    .my-name{
-        color: #01D990;
+        font-size: 12.5pt;
     }
 }
