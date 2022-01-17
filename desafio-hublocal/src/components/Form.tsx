@@ -15,7 +15,7 @@ export default function Form(){
     const onSubmit: SubmitHandler<IFormInput> = data => console.log(data);
 
     return(
-        <form onSubmit={handleSubmit(onSubmit)} className="form">
+        <form onSubmit={handleSubmit(onSubmit)} className="form" id="form">
             <p className="description-form">Preencha os campos abaixo para obter acesso aos benefícios da HubLocal diretamente no seu e-mail!</p>
             <input {...register("companyName", { required: true })} name="companyName" type="text" className="field" placeholder="Nome da Empresa"/>
             <p className="alert">{errors.companyName && "Campo Obrigatório"}</p>

@@ -5,6 +5,7 @@ import BenefitBlocks from './components/BenefitBlocks';
 import Footer from './components/Footer';
 import Demonstration from './components/Demonstration';
 import MoreBenefits from './components/MoreBenefits';
+import Modal from './components/Modal';
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
       <BenefitBlocks/>
       <MoreBenefits/>
       <Footer/>
+      <Modal/>
     </div>
   );
 }
