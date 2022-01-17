@@ -9,11 +9,19 @@
 }
 
 .description-form{
+    padding-top: 10px;
     color: #0C0C17;
     font-weight: 600;
     width: 75%;
     font-size: 14pt;
     text-align: justify;
+}
+
+.alert{
+    margin: 0px;
+    padding: 0px 0px 5px 0px;
+    color: red;
+    font-size: 12pt;
 }
 
 .field{
@@ -35,7 +43,7 @@
     border-style: none;
     border-radius: 20px;
     padding: 25px 30px 25px 30px;
-    margin: 20px;
+    margin: 20px 20px 37px 20px;
 }
 
 
@@ -79,6 +87,10 @@
     .description-form{
         font-size: 10pt;
     }
+
+    .alert{
+        font-size: 11pt;
+    }
     
     .field{
         height: 38px;
@@ -100,6 +112,10 @@
     }
     
     .description-form{
+        font-size: 10pt;
+    }
+
+    .alert{
         font-size: 10pt;
     }
     

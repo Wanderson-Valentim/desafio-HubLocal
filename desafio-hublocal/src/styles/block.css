@@ -15,6 +15,22 @@
     height: auto;
 }
 
+.block:hover{
+    background-color: white;
+    border-radius: 20px;
+    transition: 1s;
+}
+
+.block:hover .image{
+    filter: invert(100%);
+    transition: 1s;
+}
+
+.block:hover .title-block{
+    color: #0C0C17;
+    transition: 1s;
+}
+
 .image{
     margin: 0px;
     padding: 10px 10px 0px 10px; 
