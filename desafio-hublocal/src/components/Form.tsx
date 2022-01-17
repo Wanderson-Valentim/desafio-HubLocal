@@ -11,7 +11,7 @@ type IFormInput = {
 }
 
 export default function Form(){
-    const { register, handleSubmit, watch, formState: { errors } } = useForm<IFormInput>();
+    const { register, handleSubmit, formState: { errors } } = useForm<IFormInput>();
     const onSubmit: SubmitHandler<IFormInput> = data => console.log(data);
 
     return(
